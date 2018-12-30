@@ -222,12 +222,12 @@ function wordFinished (){
    if(guessedWord.indexOf(" _ ") === -1) {
       score ++;
       hasFinished = true;
-      movieSong();
+      // movieSong();
       document.getElementById("#movieWin").src = movies[movieIndex].pic; 
    } 
 };
 function startGame(){
-   alert("Welcome to AMC Top 100 Word Guess. Hit any key to begin!");
+   alert("Welcome to AMC Top 100 Word Guess. Press enter to begin!");
    resetGame();
 };
 startGame();
