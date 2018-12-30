@@ -1,0 +1,27 @@
+* {
+background-color: black;
+color: white;
+}
+
+#header{
+    text-align: center;
+}
+h1 {
+    font-family: 'Mystery Quest', cursive;
+    font-size: 36px;
+}
+img {
+width: 500px;
+}
+
+#border {
+background-image: url('../images/Curtain.jpeg');
+height: 900px;
+}
+#gamearea {
+border: red 15px solid;
+}
+#guesses {
+    text-align: center;
+    font-size: 30px;
+}
